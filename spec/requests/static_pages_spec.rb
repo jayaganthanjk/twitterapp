@@ -8,7 +8,7 @@ describe "Static pages" do
     end
     it "should have the title 'Tutorial | Home'" do
     	visit '/static_pages/home'
-    	expect(page).to have_content('Tutorial | Home')
+    	expect(page).to have_title('Tutorial | Home')
     end
   end
   describe "Help page" do
@@ -21,6 +21,12 @@ describe "Static pages" do
   	it "should have the content 'About us'" do
   		visit '/static_pages/about'
   		expect(page).to have_content('about us')
+  	end
+  end
+  describe "contact" do
+  	it "should have the content 'contact'" do
+  		visit '/static_pages/contact'
+  		expect(page).to have_content('contact')
   	end
   end
 end
