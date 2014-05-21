@@ -1,4 +1,4 @@
-@import "bootstrap";
+@import 'bootstrap';
 html {
   overflow-y: scroll;
 }
@@ -10,8 +10,8 @@ body {
 section {
   overflow: auto;
 }
-
-textarea {
+textarea
+ {
   resize: vertical;
 }
 
