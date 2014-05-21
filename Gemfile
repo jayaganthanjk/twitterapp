@@ -3,7 +3,7 @@ ruby '1.9.3'
 #ruby-gemset=railstutorial_rails_4_0
 
 gem 'rails', '4.0.5'
-gem "sass-rails", "~> 4.0.2"
+
 gem 'bootstrap-sass'
 gem 'sprockets', '2.11.0'
 
@@ -16,7 +16,7 @@ group :development, :test do
   gem 'spork-rails', '4.0.0'
   gem 'guard-spork', '1.5.0'
   gem 'childprocess', '0.3.6'
-  gem 'bcrypt-ruby', '~> 3.0.0'
+  gem 'bcrypt-ruby', '3.1.2'
 end
 
 group :test do
