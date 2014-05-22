@@ -6,7 +6,8 @@ gem 'rails', '4.0.5'
 
 gem 'bootstrap-sass'
 gem 'sprockets', '2.11.0'
-
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 group :development, :test do
   gem 'sqlite3', '1.3.8'
@@ -17,6 +18,7 @@ group :development, :test do
   gem 'guard-spork', '1.5.0'
   gem 'childprocess', '0.3.6'
   gem 'bcrypt-ruby', '3.1.2'
+  gem 'faker'
 end
 
 group :test do
